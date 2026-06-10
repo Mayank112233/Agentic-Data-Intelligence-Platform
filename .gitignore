@@ -1,0 +1,19 @@
+# Environment Variables
+.env
+
+# Virtual Environment
+venv/
+
+# Generated Outputs
+output/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.dbgit status
