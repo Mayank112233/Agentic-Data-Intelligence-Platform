@@ -32,7 +32,7 @@ LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 def get_api_key(provider: str = None) -> str:
     """Retrieve API key for provider (gemini or openai)"""
     if provider is None:
-        provider = DEFAULT_LLM_PROVIDER
+        provider =  provider = os.getenv("DEFAULT_LLM_PROVIDER", DEFAULT_LLM_PROVIDER).lower()
         
     if provider == "gemini":
         return os.getenv("GEMINI_API_KEY", "")

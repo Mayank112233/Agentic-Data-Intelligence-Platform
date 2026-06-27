@@ -14,7 +14,7 @@ def get_llm(
     Supports Gemini and OpenAI.
     """
     if not provider:
-        provider = DEFAULT_LLM_PROVIDER
+        provider =   os.getenv("DEFAULT_LLM_PROVIDER", DEFAULT_LLM_PROVIDER).lower()
     provider = provider.lower()
     
     if not api_key:
