@@ -1,6 +1,18 @@
-# 🤖 Autonomous Data Science Agent
+<div align="center">
 
-An end-to-end, production-grade autonomous data science platform. Powered by **LangGraph** and **LangChain**, a team of specialized AI agents collaborates to clean, explore, visualize, model, explain, and write business strategies for any uploaded CSV dataset.
+# Agentic Data Intelligence Platform
+
+A coordinated AI workflow for exploring datasets, building models, and reporting insights.
+
+<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square" /> <img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-0F766E?style=flat-square" /> <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square" /> <img alt="SHAP" src="https://img.shields.io/badge/SHAP-7C3AED?style=flat-square" />
+
+**[Mayank Madhukar](https://github.com/Mayank112233)**
+
+</div>
+
+---
+
+An end-to-end autonomous data science platform. Powered by **LangGraph** and **LangChain**, a team of specialized AI agents collaborates to clean, explore, visualize, model, explain, and write business strategies for any uploaded CSV dataset.
 
 ---
 
@@ -53,6 +65,14 @@ END
 
 ### 1. Clone & Initialize Directory
 Ensure you have Python 3.10+ installed.
+
+```bash
+git clone https://github.com/Mayank112233/Agentic-Data-Intelligence-Platform.git
+cd Agentic-Data-Intelligence-Platform
+python -m venv .venv
+```
+
+Activate the virtual environment before installing dependencies.
 
 ### 2. Install Dependencies
 ```bash
